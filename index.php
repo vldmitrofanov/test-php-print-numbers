@@ -35,14 +35,17 @@
             margin-top: 20px;
             display: flex;
             gap: 6px;
+            flex-wrap: wrap;
         }
         .results .tag {
-            background-color: lightblue;
+            background-color: #e2f4fa;;
             color: #309eff;
             line-height: 2;
             padding: 0 4px;
             display: inline-block;
             font-weight: 300;
+            border-radius: 5px;
+            font-size: 14px;
         }
     </style>
 </head>
