@@ -10,7 +10,14 @@
         * {
             box-sizing: border-box;
         }
-        .box{
+
+        h1{
+            font-size: 20px;
+            font-weight: 300px;
+            line-height: 2;
+        }
+
+        .box {
             margin: 10vh auto 0;
             width: 400px;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -18,8 +25,13 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
+            padding: 10px 30px 40px;
+            color: #666;
+            justify-content: center;
+            align-items: center;
         }
-        .results{
+
+        .results {
             margin-top: 20px;
         }
     </style>
