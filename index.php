@@ -33,6 +33,16 @@
 
         .results {
             margin-top: 20px;
+            display: flex;
+            gap: 6px;
+        }
+        .results .tag {
+            background-color: lightblue;
+            color: #309eff;
+            line-height: 2;
+            padding: 0 4px;
+            display: inline-block;
+            font-weight: 300;
         }
     </style>
 </head>
@@ -67,7 +77,7 @@
                 {
                     global $hashTable;
                     if ($curr_digit == $n) {
-                        printf("%s ", $output);
+                        printf("<span class=\"tag\">%s</span>", $output);
                         return;
                     }
 
