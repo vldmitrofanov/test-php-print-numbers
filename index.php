@@ -41,7 +41,7 @@
             background-color: #e2f4fa;;
             color: #309eff;
             line-height: 2;
-            padding: 0 4px;
+            padding: 0 8px;
             display: inline-block;
             font-weight: 300;
             border-radius: 5px;
